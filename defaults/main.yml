@@ -11,7 +11,6 @@ abrt_packages:
   - abrt-cli
   - abrt-console-notification
   - abrt-dbus
-  - abrt-java-connector
   - abrt-python
   - abrt-retrace-client
   - abrt-tui
@@ -29,3 +28,4 @@ libreport_packages:
 # satyr packages needed
 satyr_packages:
   - satyr
+  - satyr-python
