@@ -1,0 +1,31 @@
+---
+# abrt packages needed
+abrt_packages:
+  - abrt-addon-ccpp
+  - abrt-addon-kerneloops
+  - abrt-addon-pstoreoops
+  - abrt-addon-python
+  - abrt-addon-upload-watch
+  - abrt-addon-vmcore
+  - abrt-addon-xorg
+  - abrt-cli
+  - abrt-console-notification
+  - abrt-dbus
+  - abrt-java-connector
+  - abrt-python
+  - abrt-retrace-client
+  - abrt-tui
+
+# libreport packages needed
+libreport_packages:
+  - libreport
+  - libreport-plugin-bugzilla
+  - libreport-plugin-rhtsupport
+  - libreport-plugin-reportuploader
+  - libreport-plugin-mailx
+  - libreport-plugin-ureport
+  - libreport-plugin-logger
+
+# satyr packages needed
+satyr_packages:
+  - satyr
