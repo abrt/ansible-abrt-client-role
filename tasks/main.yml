@@ -41,3 +41,11 @@
     name: abrt-vmcore
     state: started
     enabled: yes
+
+- name: configure FAF url
+  become: true
+  lineinfile:
+    path: /etc/libreport/plugins/ureport.conf
+    regexp: '^URL ='
+    insertafter: '^# URL ='
+    line: 'URL = {{ faf_url }}'
