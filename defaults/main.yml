@@ -29,3 +29,5 @@ libreport_packages:
 satyr_packages:
   - satyr
   - satyr-python
+
+faf_url: "https://retrace.fedoraproject.org/faf"
