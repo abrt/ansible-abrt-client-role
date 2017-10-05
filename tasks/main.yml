@@ -1,16 +1,16 @@
 ---
 - name: install satyr packages
-  yum: pkg={{ item }} state=latest
+  package: name={{ item }} state=latest
   become: true
   with_items: "{{ satyr_packages }}"
 
 - name: install libreport packages
-  yum: pkg={{ item }} state=latest
+  package: name={{ item }} state=latest
   become: true
   with_items: "{{ libreport_packages }}"
 
 - name: install abrt packages
-  yum: pkg={{ item }} state=latest
+  package: name={{ item }} state=latest
   become: true
   with_items: "{{ abrt_packages }}"
 
