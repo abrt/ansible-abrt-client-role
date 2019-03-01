@@ -2,17 +2,17 @@
 - name: install satyr packages
   package: name={{ item }} state=latest
   become: true
-  with_items: "{{ satyr_packages }}"
+  loop: "{{ satyr_packages }}"
 
 - name: install libreport packages
   package: name={{ item }} state=latest
   become: true
-  with_items: "{{ libreport_packages }}"
+  loop: "{{ libreport_packages }}"
 
 - name: install abrt packages
   package: name={{ item }} state=latest
   become: true
-  with_items: "{{ abrt_packages }}"
+  loop: "{{ abrt_packages }}"
 
 - name: start abrtd service
   become: true
