@@ -11,7 +11,7 @@ abrt_packages:
   - abrt-cli
   - abrt-console-notification
   - abrt-dbus
-  - abrt-python
+  - python3-abrt
   - abrt-retrace-client
   - abrt-tui
 
@@ -28,6 +28,6 @@ libreport_packages:
 # satyr packages needed
 satyr_packages:
   - satyr
-  - satyr-python
+  - python3-satyr
 
 faf_url: "https://retrace.fedoraproject.org/faf"
