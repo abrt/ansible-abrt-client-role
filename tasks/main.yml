@@ -1,4 +1,9 @@
 ---
+- name: install python libselinux package
+  package: name=python3-libselinux state=latest
+  become: true
+  when: ansible_selinux is defined and ansible_selinux.status == 'enabled'
+
 - name: install satyr packages
   package: name={{ item }} state=latest
   become: true
