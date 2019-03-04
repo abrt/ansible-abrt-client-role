@@ -4,7 +4,6 @@ abrt_packages:
   - abrt-addon-ccpp
   - abrt-addon-kerneloops
   - abrt-addon-pstoreoops
-  - abrt-addon-python
   - abrt-addon-upload-watch
   - abrt-addon-vmcore
   - abrt-addon-xorg
@@ -12,6 +11,7 @@ abrt_packages:
   - abrt-console-notification
   - abrt-dbus
   - python3-abrt
+  - python3-abrt-addon
   - abrt-retrace-client
   - abrt-tui
 
